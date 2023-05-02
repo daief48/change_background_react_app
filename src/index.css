@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #ffa4ff;
+
+}
+
+.increment h1 {
+  font-size: 45px;
+  font-family: monospace;
+}
+
+.increment button {
+  padding: 15px;
+  background: #ffa4ff;
+  color: white;
+  font-weight: 900;
+  margin: 7px;
+  border-radius: 9px;
+  border: solid white;
+  font-size: 23px;
+  text-transform: uppercase;
+}
+
+.btn {
+  display: flex;
+}
